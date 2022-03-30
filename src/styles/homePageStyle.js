@@ -6,15 +6,29 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: '#232F3E',
     },
+    //---------------------------CSS for the logo of prime video------------------------------------
+
+    mainViewStyle: {
+        backgroundColor: '#232F3E'
+    },
     PMImage: {
         height: 30,
         fontWeight: '700',
         fontSize: 15,
-        // marginTop:50,
         marginBottom: 20,
         color: 'white',
         alignSelf: "center",
     },
+    logoStyle: {
+        marginTop: -50,
+        height: 50,
+        width: 50,
+        alignItems: 'center',
+        justifyContent: 'center',
+        alignSelf: 'center',
+    },
+
+//----------------------------------------SearchScreen_CSS-----------------------------------------
     searchViewstyle: {
         height: 40,
         flex: 1,
@@ -107,14 +121,6 @@ export default StyleSheet.create({
         height: 15,
         marginTop: 16,
         resizeMode: 'contain',
-    },
-    logoStyle: {
-        marginTop: -50,
-        height: 50,
-        width: 50,
-        alignItems: 'center',
-        justifyContent: 'center',
-        alignSelf: 'center',
     },
     viewStyle: {
         height: 105,
@@ -275,7 +281,7 @@ export default StyleSheet.create({
         justifyContent: 'center',
         borderRadius: 3
     },
-    downloadVideo:{
+    downloadVideo: {
         // flex: 1,
         flexDirection: 'row',
         height: 100,
@@ -283,7 +289,7 @@ export default StyleSheet.create({
         marginLeft: 2,
         marginRight: 2,
     },
-    linearGradientView:{
-        height:'20%'
+    linearGradientView: {
+        height: '20%'
     }
 })

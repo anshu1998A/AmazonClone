@@ -1,6 +1,6 @@
 import { View, Text, SafeAreaView, Image, TextInput } from 'react-native';
 import React from 'react';
-import Styles from '../../styles/secondStyle';
+import Styles from '../styles/secondStyle';
 
 export default function SearchBar() {
 

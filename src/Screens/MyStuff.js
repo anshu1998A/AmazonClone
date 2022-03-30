@@ -1,8 +1,8 @@
 import React from 'react'
 import { Text, View, SafeAreaView, Image, ImageBackground } from 'react-native'
 
-import Header from '../Screens/MyStuff/Header';
-import DownloadedV from '../Screens/MyStuff/DownloadedV';
+import Header from '../Components/Header';
+import DownloadedV from '../Components/DownloadedV';
 
 function MyStuff({navigation}) {
   return (

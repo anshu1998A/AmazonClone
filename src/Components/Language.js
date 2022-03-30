@@ -1,6 +1,6 @@
 import { View, Text,FlatList, Image } from 'react-native'
 import React from 'react';
-import Styles from '../../styles/secondStyle';
+import Styles from '../styles/secondStyle';
 import { Divider } from 'react-native-elements/dist/divider/Divider';
 
 

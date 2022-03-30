@@ -15,9 +15,8 @@ import TopRated from '../Components/TopRated';
 
 const Home = () => {
   return (
-
     
-    <SafeAreaView style={{backgroundColor:'#232F3E'}}>
+    <SafeAreaView style={HomeStyle.mainViewStyle}>
     
          <View  style={HomeStyle.addDiv}>
         </View>
